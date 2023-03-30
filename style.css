@@ -1,0 +1,185 @@
+body{
+    cursor: zoom-in;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+
+}
+
+
+.header{
+    background-color: rgb(31, 41, 55);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 65%;
+}
+
+
+    
+.subheading{
+    background-color: rgb(31, 41, 55);
+    min-height: 25vh;
+    color: #fff;
+    padding: 2px;
+}
+
+
+.container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.content1{
+    width: 50%;
+    padding: 5px;
+    
+}
+
+
+.header-text1{
+    font-size: 48px;
+    margin-bottom: 0;
+    
+}
+
+.nav-item{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-item1{
+    font-size: 18px;
+}
+
+
+.content2{
+    height: 180px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173,171,171);
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.body01{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin-right: 5px;
+
+}
+
+.box{
+    border: 2px solid rgb(56,130,246);
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+
+.body02{
+    background-color: rgb(229,231,235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    padding: 20px;
+}
+
+.quote{
+    width: 40%;
+    font-size: 23px;
+}
+
+p{
+    text-align: right;
+    font-size: 18px;
+}
+
+
+.body03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container{
+    display: flex;
+    background-color:rgb(56,130,246);
+    padding: 30px;
+    width: 50%;
+    margin: 50px;
+    justify-content: space-between;
+    color:  rgb(229,231,235);
+    border-radius: 5px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgb(229,231,235);
+}
+
+
+button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(56,130,246);
+    border: 1px solid rgba(229,231,235, 1)
+}
+
+.signup{
+    color:  rgb(229,231,235);
+
+}
+
+footer{
+    background-color: rgb(31, 41, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.footer-text{
+    font-size: 18px;
+    color:  rgb(229,231,235);
+}
+
